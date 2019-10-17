@@ -1,24 +1,31 @@
 html {
-  box-sizing: html {
   box-sizing: border-box;
+
   background-color: #dbd6cf;
   line-height: 15;
 }
 
-  *, *::before, *::after {
-    box-sizing: inherit;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
+  display: block;
   margin: 0;
   padding: 0;
   width: 95%;
   list-style-type: none;
   text-align: center;
   background-color: #79756f;
+  border-color: #595652;
+  border-width: medium;
+  border-style: solid;
+  font-size: .8rem;
+  font-family: sans-serif;
 }
 
-.top {
+.nav {
+  display: inline-block;
   margin: .3em;
   padding: .6em .5em .75em;
   background-color: #79756f;
@@ -26,27 +33,22 @@ body {
 
 h1 {
   color: #fff;
-  font-family: 'Bevan' , sans-serif;
+  font-family: bevan sans-serif;
 }
 
-.top li {
+.nav li {
   display: inline-block;
   margin: .3em;
   max-width: .20em;
   padding: .6em .5em .75em;
   background-color: #713837;
-}
-
-.top a {
-  display: inline;
-  padding: .6em .5em .75em;
-  background-color: #713837;
-  border-radius: 4px;
+  text-align: center;
+  border-radius: .3em;
+  font-family: bevan, san-serif;
   color: #fff;
-  text-decoration: none;
+  list-style-type: disc;
 }
 
-.top a:hover {
+.nav a:hover {
   background-color: #f33;
-  color: #fff;
 }
