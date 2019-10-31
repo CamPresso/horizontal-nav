@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-
   background-color: #dbd6cf;
+  font-family: Bevan, sans-serif;
   line-height: 1.5;
 }
 
@@ -10,55 +10,66 @@ html {
 }
 
 body {
-  display: block;
   margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-  background-color: #79756f;
-  border-color: #595652;
-  border-width: medium;
-  border-style: solid;
-  font-size: .8rem;
-  font-family: Bevan, sans-serif;
 }
 
-.nav {
-  display: inline-block;
-  margin: .3em;
-  padding: .6em .5em .75em;
+header {
+  display: block;
+  margin: 0;
+  padding: .6em;
   background-color: #79756f;
+  border-top: solid #595652 3px;
+  border-bottom: solid #595652 3px;
+}
+
+.header {
+  display: block;
+  margin: 0;
+  color: #79756f;
 }
 
 h1 {
-  font-weight: bold;
-  font-size: 2rem;
   color: #fff;
   font-family: Bevan, serif;
   text-align: center;
+  margin: 0;
 }
 
-.nav li {
-  display: inline-block;
-  padding: .6em .5em .75em;
-  font-family: sans-serif;
+a {
+  text-decoration: none;
   color: #fff;
-  list-style-type: disc;
+  padding: .5em .75em;
   background-color: #713837;
-  text-align: center;
-  border-radius: .3em;
+  border-radius: 10px;
+  display: inline-block;
 }
 
-.nav a {
-  display: inline;
-  padding: .6em .5em .75em;
-  background-color: #713837;
-  border-radius: 4px;
+nav {
+  text-align: center;
+  display: block;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+nav a:hover {
+  background-color: #f33;
   color: #fff;
   text-decoration: none;
 }
 
-.nav a:hover {
-  background-color: #f33;
-  color: #fff;
+header ul {
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.planets {
+  display: inline-block;
+  text-align: center;
+}
+
+body ul li {
+  color: white;
 }
