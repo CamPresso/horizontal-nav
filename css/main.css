@@ -20,7 +20,7 @@ body {
   border-width: medium;
   border-style: solid;
   font-size: .8rem;
-  font-family: sans-serif;
+  font-family: Bevan, sans-serif;
 }
 
 .nav {
@@ -32,15 +32,16 @@ body {
 
 h1 {
   font-weight: bold;
+  font-size: 2rem;
   color: #fff;
-  font-family: bevan sans-serif;
+  font-family: Bevan, serif;
   text-align: center;
 }
 
 .nav li {
   display: inline-block;
   padding: .6em .5em .75em;
-  font-family: bevan, san-serif;
+  font-family: sans-serif;
   color: #fff;
   list-style-type: disc;
   background-color: #713837;
